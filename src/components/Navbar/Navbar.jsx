@@ -27,9 +27,8 @@ const Navbar = () => {
         {/* 2. Desktop Navigation */}
         <div className="hidden md:flex items-center gap-20">
           {navLinks.map((item, index) => (
-            <a 
+            <Link to={item.link} 
               key={index} 
-              href={item.link} 
               className="group relative text-sm font-medium text-black cursor-pointer"
             >
               <span className="absolute -left-6 top-1/2 -translate-y-1/2 text-lg text-yellow-700 opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
@@ -39,7 +38,7 @@ const Navbar = () => {
                 {item.name}
               </span>
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -80,15 +79,15 @@ const Navbar = () => {
       {/* Mobile Menu Overlay */}
       <div className={`fixed inset-0 bg-[#fdfbf7] z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-500 ease-in-out md:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         {navLinks.map((item, index) => (
-          <a 
+          <Link 
             key={index} 
-            href={item.link} 
+            to={item.link} 
             onClick={toggleMenu} 
             className="text-2xl font-semibold text-gray-800 hover:text-yellow-700 flex items-center gap-3 transition-all"
           >
             <i className={`${item.icon} text-yellow-600`}></i>
             {item.name}
-          </a>
+          </Link>
         ))}
         <button className="mt-5 px-8 py-3 bg-black text-white font-bold rounded-full">
           Raise a Query

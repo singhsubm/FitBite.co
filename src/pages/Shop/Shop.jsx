@@ -22,6 +22,9 @@ const Shop = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const container = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // 2. FILTER LOGIC
   useEffect(() => {

@@ -1,9 +1,12 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import "remixicon/fonts/remixicon.css";
 
 const Hero = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const containerRef = useRef(null);
 
   useGSAP(
