@@ -74,6 +74,7 @@ const CustomCursor = () => {
   }, [isHovered]);
 
   return (
+    <div className='hidden lg:block'>
     <div 
       ref={cursorRef}
       className="fixed top-0 left-0 rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center overflow-hidden"
@@ -84,6 +85,7 @@ const CustomCursor = () => {
       >
         View More
       </span>
+    </div>
     </div>
   );
 };
