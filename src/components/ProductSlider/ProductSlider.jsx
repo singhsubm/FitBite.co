@@ -96,7 +96,7 @@ const ProductSlider = () => {
                   <h3 className="font-playfair font-bold text-lg md:text-xl text-gray-800 mb-1">
                     {item.name}
                   </h3>
-                  <p className="text-xs text-gray-400 mb-3">{item.desc}</p>
+                  <p className="text-xs text-gray-800 mb-3">{item.desc}</p>
                   
                   
                 </div>
