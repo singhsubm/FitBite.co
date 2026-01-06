@@ -53,7 +53,7 @@ const Hero = () => {
         </video>
 
         {/* Dark Overlay - Text padhne ke liye zaroori hai */}
-        <div className="absolute inset-0 bg-black/80"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
       {/* 2. CENTER CONTENT CONTAINER */}
