@@ -104,9 +104,9 @@ const HorizontalScroll = () => {
               </div>
 
               {/* HUGE TEXT CONTENT */}
-              <div className="relative z-10 text-center mix-blend-overlay md:mix-blend-normal">
+              <div className="relative z-10 text-center mix-blend-normal">
                 
-                <div className="text-xl md:text-2xl font-cursive text-white/60 mb-4 tracking-widest">
+                <div className="text-xl md:text-2xl font-cursive text-white/80 mb-4 tracking-widest">
                   0{index + 1} &nbsp; — &nbsp; PROCESS
                 </div>
 
