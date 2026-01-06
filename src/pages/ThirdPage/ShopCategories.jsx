@@ -63,9 +63,9 @@ const ShopCategories = () => {
       
       {/* Heading */}
       <div className="text-center mb-4">
-        <h2 className="text-3xl md:text-5xl playfair font-bold text-[#4a3b2a]">
-          Shop by Category
-        </h2>
+        <h2 className="text-4xl md:text-6xl playfair font-bold text-[#4a3b2a] uppercase tracking-tight drop-shadow-lg">
+            Shop by Category
+          </h2>
         <p className="text-stone-500 mt-2 tracking-widest text-sm uppercase">Pure. Natural. Preserved.</p>
       </div>
 

@@ -86,9 +86,9 @@ const FlavorPalette = () => {
       
       {/* 1. HEADER SECTION (Minimal & Classy) */}
       <div className="relative w-full mb-20 md:mb-28 px-4 text-center">
-        <h2 className="tilted-text text-4xl md:text-8xl playfair font-black text-[#4a3b2a] uppercase leading-none tracking-tighter drop-shadow-sm">
-            Curated <span className="text-[#d4a017] italic font-serif">Plans</span>
-        </h2>
+        <h2 className="text-4xl md:text-6xl playfair font-bold text-[#4a3b2a] uppercase tracking-tight drop-shadow-lg">
+            Curated Plans
+          </h2>
         <p className="text-xs md:text-sm font-medium tracking-[0.3em] uppercase mt-4 text-stone-500">
             Choose your wellness journey
         </p>
