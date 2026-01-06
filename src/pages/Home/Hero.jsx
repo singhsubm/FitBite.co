@@ -43,7 +43,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          className="w-full h-full object-cover opacity-65 scale-105 absolute"
+          className="w-full h-full object-cover scale-105 absolute"
         >
           {/* Working Direct MP4 Link */}
           <source
@@ -53,7 +53,7 @@ const Hero = () => {
         </video>
 
         {/* Dark Overlay - Text padhne ke liye zaroori hai */}
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/80"></div>
       </div>
 
       {/* 2. CENTER CONTENT CONTAINER */}
