@@ -66,7 +66,7 @@ const ShopCategories = () => {
         <h2 className="text-4xl md:text-6xl playfair font-bold text-[#4a3b2a] uppercase tracking-tight drop-shadow-lg">
             Shop by Category
           </h2>
-        <p className="text-stone-500 mt-2 tracking-widest text-sm uppercase">Pure. Natural. Preserved.</p>
+        <p className="text-xs md:text-sm font-medium tracking-[0.3em] uppercase mt-4 text-stone-500">Pure. Natural. Preserved.</p>
       </div>
 
       {/* GRID LOGIC (User Requirement):
