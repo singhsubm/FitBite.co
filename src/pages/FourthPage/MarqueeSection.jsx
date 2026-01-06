@@ -44,7 +44,7 @@ const MarqueeSection = () => {
           <div key={i} className="flex items-center gap-8 md:gap-24">
             
             {/* TEXT: Laptop pe 9vw (Bahut Bada) */}
-            <span className={`text-6xl md:text-[9vw] font-playfair font-black uppercase tracking-tighter ${textColor} leading-none`}>
+            <span className={`text-6xl md:text-[9vw] playfair font-black uppercase tracking-tighter ${textColor} leading-none`}>
               {text}
             </span>
             

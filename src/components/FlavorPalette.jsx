@@ -13,7 +13,8 @@ const items = [
     price: "₹499",
     rating: "4.8",
     // Premium Earthy Beige
-    bgColor: "bg-[#E8E0D5]", 
+    // bgColor: "bg-[#E8E0D5]", 
+    bgColor: "bg-[#ffd960]", 
     btnColor: "text-[#8B7355]",
     btnBg: "bg-white",
     img: "https://images.unsplash.com/photo-1596812179986-c78ad0debed8?q=80&w=500&auto=format&fit=crop", // Almonds
@@ -26,7 +27,8 @@ const items = [
     price: "₹999",
     rating: "4.9",
     // Soft Sage Green (Nature feel)
-    bgColor: "bg-[#D3D9C9]", 
+    // bgColor: "bg-[#D3D9C9]", 
+    bgColor: "bg-[#ffe591]", 
     btnColor: "text-[#556B2F]",
     btnBg: "bg-white",
     img: "https://images.unsplash.com/photo-1626697556426-8a55a8af4999?q=80&w=500&auto=format&fit=crop", // Cashews
@@ -39,7 +41,8 @@ const items = [
     price: "₹2,999",
     rating: "5.0",
     // Warm Sand/Terracotta (Royal feel)
-    bgColor: "bg-[#E6CCBE]", 
+    // bgColor: "bg-[#E6CCBE]", 
+    bgColor: "bg-[#ffd960]", 
     btnColor: "text-[#8D5A46]",
     btnBg: "bg-white",
     img: "https://images.unsplash.com/photo-1615485737646-a0363aba01ec?q=80&w=500&auto=format&fit=crop", // Pistachios
